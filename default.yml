@@ -11,6 +11,10 @@ agent_options:
   path: ./lib/agent-options.yml
 controls:
 org_settings:
+  webhook_settings:
+    activties_webhook:
+      enabled_activities_webhook: true
+      destination_url: https://mattstraub.com
   host_expiry_settings: 
     host_expiry_enabled: true
     host_expiry_window: 30
@@ -19,6 +23,6 @@ org_settings:
   server_settings:
     server_url: $FLEET_URL
   org_info:
-    org_name: Fleet
+    org_name: Matt-Dev
   secrets:
     - secret: "$FLEET_GLOBAL_ENROLL_SECRET"
