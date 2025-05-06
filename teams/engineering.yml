@@ -22,7 +22,7 @@ controls:
     minimum_version: "15.4"
   macos_settings:
     custom_settings:
-      -path: ../lib/disable-bluetooth-file-sharing.mobileconfig
+      - path: ../lib/disable-bluetooth-file-sharing.mobileconfig
   scripts:
     - path: ../lib/remove-zoom-artifacts.script.sh
     - path: ../lib/set-timezone.script.sh
