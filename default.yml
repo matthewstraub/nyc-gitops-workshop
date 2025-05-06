@@ -15,6 +15,9 @@ org_settings:
     activities_webhook:
       enable_activities_webhook: true
       destination_url: https://mattstraub.com
+    failing_policies_webhook:
+      enable_failing_policies_webhook: true
+      destination_url: https://mtsproservices.com
   host_expiry_settings: 
     host_expiry_enabled: true
     host_expiry_window: 30
